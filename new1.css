@@ -92,13 +92,13 @@ padding: 14px 16px;
 }
 .wireframe1 {
 	
- text-align: center;
+ 
 
    
 }
 .wireframe2{
 	
- text-align: center;
+ 
 
    
 }
@@ -144,7 +144,7 @@ a:active {
     color: blue;
 }
 .footer {
-position: relative;
+position: absolute;
   right: 0;
   bottom: 0;
   left: 0;

@@ -55,6 +55,19 @@ li a:hover {
     margin-right: 400px;
     margin-left: 350px;
 }
+.github {
+	
+	color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
+
+	
+}
 .mathtext {
     position: absolute;
     top: 400px;
@@ -75,9 +88,33 @@ position: absolute;
 }
 
 
+.time {
+	position: absolute;
+    top: 150px;
+	margin-bottom: 30px;
+    margin-right: 400px;
+    margin-left: 350px;
+}
 
+/* unvisited link */
+a:link {
+    color: red;
+}
 
+/* visited link */
+a:visited {
+    color: black;
+}
 
+/* mouse over link */
+a:hover {
+    color: Navy;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
 
 
 
